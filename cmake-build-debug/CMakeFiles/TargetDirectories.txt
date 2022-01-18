@@ -1,0 +1,3 @@
+C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/Mr_Jack.dir
+C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
