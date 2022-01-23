@@ -124,7 +124,34 @@ void map_initializer(){
     map[5][0].structures = map[0][3].structures = 4;
 
 
+    map[6][0].structures = 0;
 
+
+    map[7][0].structures = 0;
+    map[7][2].structures = map[7][4].structures = map[7][6].structures = 2;
+    map[7][3].structures = map[7][7].structures = 3;
+
+
+    map[8][0].structures = map[8][1].structures = 0;
+
+
+    map[9][0].structures = map[9][1].structures = map[9][7].structures = map[9][8].structures =0;
+    map[9][3].structures = map[9][5].structures = 2;
+
+
+    map[10][0].structures = map[10][1].structures = map[10][8].structures = 0;
+    map[10][5].structures = 2;
+    map[10][7].structures = 3;
+
+
+    map[11][0].structures = map[11][8].structures = 0;
+    map[11][4].structures = map[11][5].structures = 2;
+    map[11][2].structures = 3;
+    map[11][1].structures = 4;
+
+
+    map[12][0].structures = map[12][1].structures = map[12][7].structures = map[12][8].structures = 0;
+    map[12][5].structures = 4;
 }
 
 
