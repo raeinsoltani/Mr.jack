@@ -16,7 +16,7 @@ struct map_struct{
 struct map_struct map[13][9];
 
 
-int map_printer(){
+void map_printer(){
     for (int x=0; x<13; x++){
         for (int y=0; y<9; y++){
             if (map[x][y].character == 0){
@@ -87,7 +87,47 @@ int map_printer(){
 }
 
 
-int main() {
+void map_initializer(){
+    for (int x; x < 13; x++){
+        for (int y; y< 9; y++){
+            map[x][y].structures = 1;
+        }
+    }
 
+
+    map[0][0].structures = map[0][1].structures = map[0][8].structures = 0;
+    map[0][2].structures = 2;
+    map[0][3].structures = 3;
+
+
+    map[1][0].structures = map[1][8].structures = 0;
+    map[1][3].structures = map[1][4].structures = 2;
+    map[1][6].structures = 3;
+
+
+    map[2][0].structures = map[2][1].structures = map[2][8].structures = 0;
+    map[2][4].structures = 2;
+    map[2][2].structures = 3;
+    map[2][7].structures = 4;
+
+
+    map[3][0].structures = map[3][1].structures = map[3][7].structures = map[3][8].structures =0;
+    map[3][3].structures = map[3][5].structures = 2;
+
+
+    map[4][0].structures = map[4][8].structures = 0;
+
+
+    map[5][8].structures = 0;
+    map[5][2].structures = map[5][4].structures = map[5][6].structures = 2;
+    map[5][5].structures = 3;
+    map[5][0].structures = map[0][3].structures = 4;
+
+
+
+}
+
+
+int main() {
     return 0;
 }
