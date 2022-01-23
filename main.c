@@ -16,11 +16,44 @@ struct map_struct* map[13][9];
 
 
 int map_initialization(){
+    for (int i=0; i<6; i++){
+        printf("  ______        ");
+    }
+    printf("  ______  \n");
 
+    for (int i=0; i<6; i++){
+        printf(" /      \\       ");
+    }
+    printf(" /      \\ \n");
+
+    for (int i=0; i<6; i++){
+        printf("/   ch   \\______");
+    }
+    printf("/   ch   \\\n");
+
+    for (int i=0; i<6; i++){
+        printf("\\   tp   /      ");
+    }
+    printf("\\   tp   /\n");
+
+    for (int i=0; i<6; i++){
+        printf(" \\______/   ch  ");
+    }
+    printf(" \\______/ \n");
+
+    printf("        ");
+    for (int i=0; i<6; i++){
+        printf("\\   tp   /      ");
+    }
+
+    printf("\n        ");
+    for (int i=0; i<6; i++){
+        printf(" \\______/       ");
+    }
 }
 
 
 int main() {
-
+    map_initialization();
     return 0;
 }

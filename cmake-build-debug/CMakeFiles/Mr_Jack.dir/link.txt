@@ -1,3 +1,3 @@
-C:\Users\raeen\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Mr_Jack.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Mr_Jack.dir/objects.a @CMakeFiles\Mr_Jack.dir\objects1.rsp
+C:\Users\raeen\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6461.75\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Mr_Jack.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\Mr_Jack.dir/objects.a @CMakeFiles\Mr_Jack.dir\objects1.rsp
 C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Mr_Jack.dir/objects.a -Wl,--no-whole-archive -o Mr_Jack.exe -Wl,--out-implib,libMr_Jack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Mr_Jack.dir\linklibs.rsp
