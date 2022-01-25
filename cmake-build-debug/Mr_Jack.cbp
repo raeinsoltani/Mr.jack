@@ -76,7 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/definition.c">
+			<Option target="Mr_Jack"/>
+		</Unit>
+		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/definition.h">
+			<Option target="Mr_Jack"/>
+		</Unit>
 		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/main.c">
+			<Option target="Mr_Jack"/>
+		</Unit>
+		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/map_functions.c">
+			<Option target="Mr_Jack"/>
+		</Unit>
+		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/map_functions.h">
 			<Option target="Mr_Jack"/>
 		</Unit>
 		<Unit filename="C:/Users/raeen/CLionProjects/Mr-Jack/CMakeLists.txt">

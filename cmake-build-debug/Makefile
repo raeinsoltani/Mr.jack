@@ -128,6 +128,30 @@ Mr_Jack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/build
 .PHONY : Mr_Jack/fast
 
+definition.obj: definition.c.obj
+.PHONY : definition.obj
+
+# target to build an object file
+definition.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/definition.c.obj
+.PHONY : definition.c.obj
+
+definition.i: definition.c.i
+.PHONY : definition.i
+
+# target to preprocess a source file
+definition.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/definition.c.i
+.PHONY : definition.c.i
+
+definition.s: definition.c.s
+.PHONY : definition.s
+
+# target to generate assembly for a file
+definition.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/definition.c.s
+.PHONY : definition.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -152,6 +176,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/main.c.s
 .PHONY : main.c.s
 
+map_functions.obj: map_functions.c.obj
+.PHONY : map_functions.obj
+
+# target to build an object file
+map_functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/map_functions.c.obj
+.PHONY : map_functions.c.obj
+
+map_functions.i: map_functions.c.i
+.PHONY : map_functions.i
+
+# target to preprocess a source file
+map_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/map_functions.c.i
+.PHONY : map_functions.c.i
+
+map_functions.s: map_functions.c.s
+.PHONY : map_functions.s
+
+# target to generate assembly for a file
+map_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/map_functions.c.s
+.PHONY : map_functions.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Mr_Jack
+	@echo ... definition.obj
+	@echo ... definition.i
+	@echo ... definition.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... map_functions.obj
+	@echo ... map_functions.i
+	@echo ... map_functions.s
 .PHONY : help
 
 

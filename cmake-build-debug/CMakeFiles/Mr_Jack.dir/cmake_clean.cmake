@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Mr_Jack.dir/definition.c.obj"
   "CMakeFiles/Mr_Jack.dir/main.c.obj"
+  "CMakeFiles/Mr_Jack.dir/map_functions.c.obj"
   "Mr_Jack.exe"
   "Mr_Jack.exe.manifest"
   "Mr_Jack.pdb"
