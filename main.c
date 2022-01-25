@@ -14,6 +14,7 @@ int main() {
         }
     }
     map_printer();
+    set_jack();
     randomize();
     hand_linked_list_maker();
 

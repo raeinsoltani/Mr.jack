@@ -8,6 +8,7 @@
 void swap (int *a, int *b);
 void randomize ();
 void hand_linked_list_maker();
+void set_jack();
 void show_jack();
 
 #endif //MR_JACK_GAME_FUNCTIONS_H

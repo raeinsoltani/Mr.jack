@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include <string.h>
 
 void swap (int *a, int *b)
 {
@@ -54,17 +54,34 @@ void hand_linked_list_maker(){
 void set_jack(){
     randomize();
     jack = hand_array[0];
-    if (jack == 1){
-
+    if (jack == 0){
+        strcpy(jack_name, "SH");
+    }
+    else if (jack == 1){
+        strcpy(jack_name, "JW");
     }
     else if (jack == 2){
-
+        strcpy(jack_name, "JS");
     }
-    else if (jack == )
-    printf("Jack is set to Character %d\n", jack);
+    else if (jack == 3){
+        strcpy(jack_name, "JL");
+    }
+    else if (jack == 4){
+        strcpy(jack_name, "MS");
+    }
+    else if (jack == 5){
+        strcpy(jack_name, "SG");
+    }
+    else if (jack == 6){
+        strcpy(jack_name, "WG");
+    }
+    else if (jack == 7){
+        strcpy(jack_name, "JB");
+    }
+    printf("Jack is set to Character %s\n", jack_name);
 }
 
 
 void show_jack(){
-    printf("Jack")
+    printf("Jack is %s", jack_name);
 }
