@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Mr_Jack.dir/definition.c.obj"
+  "CMakeFiles/Mr_Jack.dir/game_functions.c.obj"
   "CMakeFiles/Mr_Jack.dir/main.c.obj"
   "CMakeFiles/Mr_Jack.dir/map_functions.c.obj"
   "Mr_Jack.exe"

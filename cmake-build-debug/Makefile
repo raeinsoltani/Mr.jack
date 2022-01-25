@@ -152,6 +152,30 @@ definition.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/definition.c.s
 .PHONY : definition.c.s
 
+game_functions.obj: game_functions.c.obj
+.PHONY : game_functions.obj
+
+# target to build an object file
+game_functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/game_functions.c.obj
+.PHONY : game_functions.c.obj
+
+game_functions.i: game_functions.c.i
+.PHONY : game_functions.i
+
+# target to preprocess a source file
+game_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/game_functions.c.i
+.PHONY : game_functions.c.i
+
+game_functions.s: game_functions.c.s
+.PHONY : game_functions.s
+
+# target to generate assembly for a file
+game_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mr_Jack.dir\build.make CMakeFiles/Mr_Jack.dir/game_functions.c.s
+.PHONY : game_functions.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... definition.obj
 	@echo ... definition.i
 	@echo ... definition.s
+	@echo ... game_functions.obj
+	@echo ... game_functions.i
+	@echo ... game_functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

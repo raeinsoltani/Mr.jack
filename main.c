@@ -1,6 +1,7 @@
 #include "definition.h"
 #include "map_functions.h"
-
+#include "game_functions.h"
+#include <stdio.h>
 /*This is Mr-Jack by Raein Soltani __ Cracking-X
  * for initial documents on how to start the game please refer to game manual*/
 
@@ -13,5 +14,8 @@ int main() {
         }
     }
     map_printer();
+    randomize();
+    hand_linked_list_maker();
+
     return 0;
 }

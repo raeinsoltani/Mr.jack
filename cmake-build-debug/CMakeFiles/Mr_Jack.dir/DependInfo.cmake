@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/raeen/CLionProjects/Mr-Jack/definition.c" "C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/Mr_Jack.dir/definition.c.obj"
+  "C:/Users/raeen/CLionProjects/Mr-Jack/game_functions.c" "C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/Mr_Jack.dir/game_functions.c.obj"
   "C:/Users/raeen/CLionProjects/Mr-Jack/main.c" "C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/Mr_Jack.dir/main.c.obj"
   "C:/Users/raeen/CLionProjects/Mr-Jack/map_functions.c" "C:/Users/raeen/CLionProjects/Mr-Jack/cmake-build-debug/CMakeFiles/Mr_Jack.dir/map_functions.c.obj"
   )

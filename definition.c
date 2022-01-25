@@ -3,3 +3,4 @@
 //
 
 #include "definition.h"
+#include "game_functions.h"

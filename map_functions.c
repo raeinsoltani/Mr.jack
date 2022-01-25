@@ -148,3 +148,5 @@ void map_initializer(){
     map[12][0].structures = map[12][1].structures = map[12][7].structures = map[12][8].structures = 0;
     map[12][5].structures = 4;
 }
+
+

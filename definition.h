@@ -12,9 +12,15 @@ struct map_struct{
 struct map_struct map[13][9];
 
 
-struct node{
+struct character_struct{
     int playable_character;
-    struct node* next;
+    struct character_struct* next;
 };
-struct node* even_hand, odd_hand;
+struct character_struct* even_hand;
+struct character_struct* odd_hand;
+
+
+int hand_array[8];
+int jack;
+
 #endif //MR_JACK_DEFINITION_H
