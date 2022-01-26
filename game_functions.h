@@ -10,5 +10,6 @@ void randomize ();
 void hand_linked_list_maker();
 void set_jack();
 void show_jack();
+void play_character();
 
 #endif //MR_JACK_GAME_FUNCTIONS_H

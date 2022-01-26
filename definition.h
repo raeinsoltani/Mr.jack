@@ -24,5 +24,6 @@ struct character_struct* odd_hand;
 int hand_array[8];
 int jack;
 char jack_name[3];
-
+char round_player_name[3];
+int round_player_int;
 #endif //MR_JACK_DEFINITION_H

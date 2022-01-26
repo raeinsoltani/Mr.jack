@@ -85,3 +85,42 @@ void set_jack(){
 void show_jack(){
     printf("Jack is %s", jack_name);
 }
+
+void play_character(){
+    static int number_of_hand = 1;
+    if (number_of_hand % 2 == 1){
+        round_player_int = even_hand->playable_character;
+        even_hand = even_hand->next;
+        number_of_hand += 1;
+    }
+    else {
+        round_player_int = odd_hand->playable_character;
+        odd_hand = odd_hand->next;
+        number_of_hand += 1;
+    }
+    if (round_player_int == 1){
+        strcpy(round_player_name, "SH");
+    }
+    else if (round_player_int == 2){
+        strcpy(round_player_name, "JW");
+    }
+    else if (round_player_int == 3){
+        strcpy(round_player_name, "JS");
+    }
+    else if (round_player_int == 4){
+        strcpy(round_player_name, "JL");
+    }
+    else if (round_player_int == 5){
+        strcpy(round_player_name, "MS");
+    }
+    else if (round_player_int == 6){
+        strcpy(round_player_name, "SG");
+    }
+    else if (round_player_int == 7){
+        strcpy(round_player_name, "WG");
+    }
+    else if (round_player_int == 8){
+        strcpy(round_player_name, "JB");
+    }
+    printf("This round player is %s\n", round_player_name);
+}

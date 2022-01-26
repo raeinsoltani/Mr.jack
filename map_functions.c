@@ -46,9 +46,9 @@ void map_printer(){
         printf("  ______  \n");
 
         for (int i=0; i<6; i++){
-            printf(" /      \\       ");
+            printf(" /  %c   \\       ",map[2 * i][y].structures_condition);
         }
-        printf(" /      \\ \n");
+        printf(" /  %c   \\ \n",map[12][y].structures_condition);
 
         for (int i=0; i<6; i++){
             printf("/   %s   \\______", map[2 * i][y].character_str);
@@ -56,7 +56,7 @@ void map_printer(){
         printf("/   %s   \\\n", map[12][y].character_str);
 
         for (int i=0; i<6; i++){
-            printf("\\   %d    /      ", map[2 * i][y].structures);
+            printf("\\   %d    /  %c   ", map[2 * i][y].structures, map[2 * i + 1][y].structures_condition);
         }
         printf("\\   %d    /\n", map[12][y].structures);
 
@@ -147,6 +147,26 @@ void map_initializer(){
 
     map[12][0].structures = map[12][1].structures = map[12][7].structures = map[12][8].structures = 0;
     map[12][5].structures = 4;
+
+    for(int x=0; x<13; x++){
+        for (int y=0;y<9;y++){
+            if (map[x][y].structures == 4 || map[x][y].structures == 3){
+                map[x][y].structures_condition = 'X';
+            }
+            else {
+                map[x][y].structures_condition = ' ';
+            }
+        }
+    }
+
+    map[1][6].structures_condition = 'O';
+    map[2][2].structures_condition = 'O';
+    map[2][7].structures_condition = 'O';
+    map[5][5].structures_condition = 'O';
+    map[7][3].structures_condition = 'O';
+    map[10][7].structures_condition = 'O';
+    map[11][1].structures_condition = 'O';
+    map[11][2].structures_condition = 'O';
 }
 
 
